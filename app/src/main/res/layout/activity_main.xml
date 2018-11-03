@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_orange_light"
+    tools:context="frasesdodia.android.com.frasesdodia.MainActivity"
+    tools:layout_editor_absoluteY="81dp">
+
+    <Button
+        android:id="@+id/botaoNovaFraseId"
+        android:layout_width="0dp"
+        android:layout_height="42dp"
+        android:layout_marginBottom="63dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="61dp"
+        android:text="@string/texto_frase_dia"
+        app:layout_constraintBottom_toTopOf="@+id/textoNovaFraseId"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textoNovaFraseId"
+        android:layout_width="332dp"
+        android:layout_height="190dp"
+        android:layout_marginBottom="258dp"
+        android:layout_marginEnd="16dp"
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/botaoNovaFraseId" />
+</android.support.constraint.ConstraintLayout>
